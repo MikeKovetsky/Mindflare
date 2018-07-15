@@ -10,7 +10,7 @@ module.exports = {
         new UglifyJSPlugin()
     ],
     devServer: {
-        contentBase: './dist',
+        contentBase: './src',
         hot: true,
         watchContentBase: true
     },
