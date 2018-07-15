@@ -1,13 +1,17 @@
 const path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-//const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
         app: './src/index.js',
     },
     plugins: [
-        new UglifyJSPlugin()
+        new UglifyJSPlugin(),
+        new HtmlWebpackPlugin({
+            template: "./src/index.html",
+            inject: 'body'
+        })
     ],
     devServer: {
         contentBase: './src',
@@ -31,7 +35,7 @@ module.exports = {
             }]
         },
         {
-            test: /\.(png|svg|jpg|gif|html)$/,
+            test: /\.(png|svg|jpg|gif)$/,
             use: [
             'file-loader'
             ]
