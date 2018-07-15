@@ -5,11 +5,28 @@
   </head>
   <body>
     <div class="container">
-      Hello MindFlare!
-        <ul class="container__list">
-          <li class="container__list--item">Sup</li>
-          <li class="container__list--item">boiii</li>
-        </ul>
+      Hello Customer!
+      <form name="contact" method="POST" netlify>
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="client">Client</option>
+            <option value="employee">Employee</option>
+            <option value="candidate">Candidate</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </div>
     <script src="./app.bundle.js"></script>
   </body>
