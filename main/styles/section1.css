@@ -15,19 +15,19 @@
         transform: translateY(0%) translateX(0%);
     }
     25% {
-        transform: translateY(-8%); color: #F4A460; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
+        transform: translateY(-10%); color: #F4A460; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
     }
     40% {
         transform: translateY(-0%); color: #F4A460; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
     }
     55% {
-        transform: translateY(-8%); color: #F4A460; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
+        transform: translateY(-10%); color: #F4A460; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
     }
     70% {
         transform: translateY(-0%); text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
     }
     85% {
-        transform: translateY(-8%); color: #FFFFFF; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
+        transform: translateY(-10%); color: #FFFFFF; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
     }
     100% {
         transform: translateY(-0%); color: #FFFFFF; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 0.5px #ffd, 0 0 1px #fff;
@@ -35,7 +35,6 @@
 
 }
 .change_item{
-
     display: none;
     text-align: center;
     color: #ffffff;
