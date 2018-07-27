@@ -1,6 +1,6 @@
 jQuery (document).ready(function(){
 
-    $("#tlt").textillate({
+    $(".tlt").textillate({
         selector:'.phrases',
         loop: true,
         minDisplayTime: 7000,

@@ -1,0 +1,29 @@
+{
+  "name": "mindflare",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --open --watch",
+    "build": "webpack"
+  },
+  "author": "Aromanof",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.10",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "textillate": "^0.4.1"
+  }
+}

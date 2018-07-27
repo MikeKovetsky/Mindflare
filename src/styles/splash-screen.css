@@ -1,14 +1,14 @@
-.first-section{
+.splash-screen{
     display: flex;
     flex-direction: column;
 	font-family: Improv New Wide Nine Font;
 }
-.first-section h1{
+.title{
     font-size: 10rem;
     margin: 150px;
 }
 /**/
-div#tlt{
+.tlt{
     text-align: left;
     color: yellow;
     margin-top: 50px;
