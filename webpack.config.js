@@ -1,6 +1,7 @@
 const path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+let FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -11,7 +12,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.html",
             inject: 'body'
-        })
+        }),
+        new FaviconsWebpackPlugin('./assets/favicon-32x32.png')
     ],
     devServer: {
         contentBase: './src',
@@ -35,7 +37,7 @@ module.exports = {
             }]
         },
         {
-            test: /\.(png|svg|jpg|gif)$/,
+            test: /\.(png|svg|jpg|gif|ico)$/,
             use: [
             'file-loader'
             ]
