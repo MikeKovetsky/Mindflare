@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+a {
+
+    color: white !important;
+    text-decoration: none
+}
+.footer {
+
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding: 28px 0px 25px 0px;
+    max-width: 1222px;
+    margin: 0 auto;
+    align-items:center
+}
+.footer b {
+
+    font-weight: bold;
+}
+.footerSocilal__linkItem {
+
+    display: inline-block;
+    margin-right: 30px;
+}
+.footerSocilal__text {
+
+    vertical-align: middle;
+    margin-right: 30px;
+
+}
+
+
+.footer__upButton {
+    margin-right: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.footer__joinButton {
+    min-width: 190px;
+    vertical-align: middle;
+    margin: 7px 0px;
+    padding: 7px 16px;
+    border: 2px solid white;
+    display: inline-block;
+}
+.footer_tradeMark {
+    color: white;
+    margin: 7px 0px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .footerSocilal__text {
+
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+    .footer_tradeMark {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+}
