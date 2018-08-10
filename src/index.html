@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="styles/footer.css">
 
 
+    <!--Form style links-->
+    <link rel="stylesheet" href="styles/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400i" rel="stylesheet">
+
 
     <title>Mindflare</title>
 </head>
@@ -62,31 +66,54 @@
 </section>
 
 <section class="cd-section">
-    <div>
-        <div class="container">
-            Hello Customer! We are here to satisfy all you frontend needs!
-            <form name="contact" method="POST" netlify>
-              <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Your Role: <select name="role[]" multiple>
-                  <option value="client">Client</option>
-                  <option value="employee">Employee</option>
-                  <option value="candidate">Candidate</option>
-                </select></label>
-              </p>
-              <p>
-                <label>Message: <textarea placeholder="Describe your project in short" name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
+    <div class="form">
+        <div class="form__container">
+
+            <div class="form__headlineTopText">
+                Contact
+            </div>
+            <div class="form__headlineBottomText">
+                We are always open to coversation
+            </div>
+
+            <form action="" class="formForm">
+                <input type="email" class="formForm__inputItem" placeholder="Please type your email here...">
+                <input type="text" class="formForm__inputItem" placeholder="Please type your name here...">
+
+                <select name="role[] " class="formForm__inputItem formForm__inputSelect ">
+                    <option value="client"  disabled selected hidden>Provide us your issues</option>
+                    <option value="client">Client</option>
+                    <option value="employee">Employee</option>
+                    <option value="candidate">Candidate</option>
+                    class="formForm__attachText">
+                        Keep attachment
+
+                </select> <textarea class="formForm__inputItem formForm__textarea" placeholder="Сlarify your request in text here...">
+
+                </textarea>
+
+                <div class="formForm__attachImage">
+                    <img src="../assets/form/Attachment.png" alt="">
+                </div>
+                <div class="formForm__attachText">
+                    Keep attachment
+                </div>
+                <button class="formForm__inputButton"> Bring it on</button>
             </form>
-          </div>
+
+
+
+
+
+
+
+            <div class="form__palmRight">
+                <img src="../assets/form/palm-right.png" alt="">
+            </div>
+            <div class="form__palmLeft">
+                <img src="../assets/form/palm-right.png" alt="">
+            </div>
+        </div>
     </div>
 </section>
 <section class="cd-section">
