@@ -87,6 +87,7 @@ Main Components
 .cd-section:nth-of-type(5) > div {
     overflow: hidden;
   height:  100%;
+    width: 100%;
     background-color: lightgray;
 }
 .cd-section:nth-of-type(6) > div {
