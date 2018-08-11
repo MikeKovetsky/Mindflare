@@ -32,7 +32,7 @@ body::before {
 }
 
 a {
-  color: #267481;
+
   text-decoration: none;
 }
 
@@ -86,6 +86,10 @@ Main Components
 }
 .cd-section:nth-of-type(5) > div {
   background-color: #f06a59;
+}
+.cd-section:nth-of-type(6) > div {
+  height: 120px;
+  background-color: black;
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
