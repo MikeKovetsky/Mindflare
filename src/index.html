@@ -76,9 +76,9 @@
                 We are always open to coversation
             </div>
 
-            <form action="" class="formForm">
+            <form name="contact" method="POST" netlify class="formForm">
                 <input type="email" class="formForm__inputItem" placeholder="Please type your email here...">
-                <input type="text" class="formForm__inputItem" placeholder="Please type your name here...">
+                <input input type="email" name="email" name="name" class="formForm__inputItem" placeholder="Please type your name here...">
 
                 <select name="role[] " class="formForm__inputItem formForm__inputSelect ">
                     <option value="client"  disabled selected hidden>Provide us your issues</option>
@@ -88,7 +88,7 @@
                     class="formForm__attachText">
                         Keep attachment
 
-                </select> <textarea class="formForm__inputItem formForm__textarea" placeholder="Сlarify your request in text here...">
+                </select> <textarea class="formForm__inputItem formForm__textarea" name="message" placeholder="Сlarify your request in text here...">
 
                 </textarea>
 
@@ -98,7 +98,7 @@
                 <div class="formForm__attachText">
                     Keep attachment
                 </div>
-                <button class="formForm__inputButton"> Bring it on</button>
+                <button class="formForm__inputButton" type="submit"> Bring it on</button>
             </form>
 
 
