@@ -85,7 +85,10 @@ Main Components
   background-color: #fcb052;
 }
 .cd-section:nth-of-type(5) > div {
-  background-color: #f06a59;
+    overflow: hidden;
+  height:  100%;
+    width: 100%;
+    background-color: lightgray;
 }
 .cd-section:nth-of-type(6) > div {
   height: 120px;
