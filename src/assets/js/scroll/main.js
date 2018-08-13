@@ -1,3 +1,7 @@
+import "./modernizr";
+import "./velocity.min";
+import "./velocity.ui.min";
+
 jQuery(document).ready(function($){
 	//variables
 	var hijacking= $('body').data('hijacking'),

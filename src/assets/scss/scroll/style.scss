@@ -1,10 +1,7 @@
-@import 'bourbon'; // http://bourbon.io/
-
-@import '../partials/variables'; // colors, fonts etc...
-
-@import '../partials/mixins'; // custom mixins
-
-@import '../partials/layout'; // responsive grid and media queries
+@import 'bourbon/app/assets/stylesheets/_bourbon.scss'; // http://bourbon.io/
+@import '_variables.scss'; // colors, fonts etc...
+@import '_mixins.scss'; // custom mixins
+@import '_layout.scss'; // responsive grid and media queries
 
 /* -------------------------------- 
 
@@ -116,31 +113,31 @@ body[data-hijacking="on"] {
 	[data-animation="parallax"] &:first-of-type > div,
 	[data-animation="fixed"] &:first-of-type > div,
 	[data-animation="opacity"] &:first-of-type > div {
-		background-image: url('../img/img-1.jpg');
+		background-image: url('../../media/scroll/img-1.jpg');
 	}
 
 	[data-animation="parallax"] &:nth-of-type(2) > div,
 	[data-animation="fixed"] &:nth-of-type(2) > div,
 	[data-animation="opacity"] &:nth-of-type(2) > div {
-		background-image: url('../img/img-2.jpg');
+		background-image: url('../../media/scroll/img-2.jpg');
 	}
 
 	[data-animation="parallax"] &:nth-of-type(3) > div,
 	[data-animation="fixed"] &:nth-of-type(3) > div,
 	[data-animation="opacity"] &:nth-of-type(3) > div {
-		background-image: url('../img/img-3.jpg');
+		background-image: url('../../media/scroll/img-3.jpg');
 	}
 
 	[data-animation="parallax"] &:nth-of-type(4) > div,
 	[data-animation="fixed"] &:nth-of-type(4) > div,
 	[data-animation="opacity"] &:nth-of-type(4) > div {
-		background-image: url('../img/img-4.jpg');
+		background-image: url('../../media/scroll/img-4.jpg');
 	}
 
 	[data-animation="parallax"] &:nth-of-type(5) > div,
 	[data-animation="fixed"] &:nth-of-type(5) > div,
 	[data-animation="opacity"] &:nth-of-type(5) > div {
-		background-image: url('../img/img-5.jpg');
+		background-image: url('../../media/scroll/img-5.jpg');
 	}
 
 	@include MQ(L) {
@@ -235,7 +232,7 @@ body[data-hijacking="on"] {
 		text-indent: 100%;
 		white-space: nowrap;
 
-		background: url(../img/cd-icon-arrow.svg) no-repeat center center;
+		background: url('../../media/scroll/cd-icon-arrow.svg') no-repeat center center;
 
 		&.cd-prev {
 			@include transform(rotate(180deg));
